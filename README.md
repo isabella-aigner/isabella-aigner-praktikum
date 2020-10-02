@@ -1,3 +1,3 @@
 # isabella-aigner-kommunikationsdesign
 
-Portfolio Website von Isabella Aigner
+Portfolio Website von Isabella Aigner   
