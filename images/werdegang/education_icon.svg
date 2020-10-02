@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="146" height="146" viewBox="0 0 146 146">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="146" height="146" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Pfad_12" data-name="Pfad 12" d="M0,83.918H113V-25.8H0Z" transform="translate(0 25.804)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Symbol_2_5" data-name="Symbol 2 – 5" clip-path="url(#clip-path)">
+    <g id="Gruppe_35" data-name="Gruppe 35" transform="translate(-3431 -1660)">
+      <g id="Gruppe_34" data-name="Gruppe 34" transform="translate(3327 576)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="73" cy="73" r="73" transform="translate(104 1084)" fill="#26a7bb"/>
+      </g>
+    </g>
+    <g id="Gruppe_38" data-name="Gruppe 38" transform="translate(-3110.741 -1728.993)">
+      <g id="Gruppe_36" data-name="Gruppe 36" transform="translate(3159.938 1800.617)">
+        <path id="Pfad_10" data-name="Pfad 10" d="M18.254,7.109-5.613-1.748V9.4h.03c.6,6.829,11.251,12.272,24.309,12.272S42.436,16.226,43.035,9.4h.03V-2.186Z" transform="translate(5.613 2.186)" fill="#fff"/>
+      </g>
+      <g id="Gruppe_37" data-name="Gruppe 37" transform="translate(3136.741 1771.993)">
+        <path id="Pfad_11" data-name="Pfad 11" d="M36.3,27.253,82.966,9.772,36.167-8.38-11.163,9.636,3.962,15.253v6.289A1.879,1.879,0,0,0,3.5,24.161c0,.021,0,.043,0,.064V28.26a1.542,1.542,0,0,0,.655,1.259L2.014,47.995h.038a2.132,2.132,0,0,0-.038.4A2.921,2.921,0,0,0,5.106,51.12,2.925,2.925,0,0,0,8.2,48.4a2.549,2.549,0,0,0-.038-.4H8.2L5.913,29.536a1.555,1.555,0,0,0,.672-1.276V24.225c0-.021,0-.043,0-.064a1.876,1.876,0,0,0-.468-2.619V16.048Z" transform="translate(11.163 8.38)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

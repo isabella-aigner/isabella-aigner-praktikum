@@ -1,0 +1,90 @@
+#listStyleNone { list-style-type: none; }
+
+/*Allgemeine Formatierung*/
+body {
+    font-family: 'Mukta', 'Open Sans', Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 1.1em;
+    color: #060c13;
+}
+
+/*Formatierung für alle Überschriften*/
+h1 {
+    font-family: 'Mukta', 'Open Sans', Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 1.7em;
+    color: #1F1F1F;
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+}
+h2 {
+    font-size: 1.4em;
+}
+.h2-sans-serif {
+    font-family: 'Mukta', 'Open Sans', Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8em;
+}
+.small-h2 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+    font-family: 'Mukta', 'Open Sans', Arial, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.italic {
+    font-style: italic !important;
+}
+
+.h2-imprint {
+    font-family: 'Mukta', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 4%;
+}
+.h3-imprint {
+    font-family: 'Mukta', sans-serif;
+    color: #0d1b2b;
+    font-size: 1.2em;
+    margin: 0;
+}
+.h3-imprint-top {
+    font-family: 'Mukta', sans-serif;
+    color: #0d1b2b;
+    font-size: 1.2em;
+    margin: 0;
+    margin-top: 2%;
+}
+.line {
+    width: 100%;
+    height: 2px;
+    background: #0d1b2b;
+    margin-bottom: 2%;
+}
+.bold-imprint {
+    font-weight: bolder;
+    color: #0d1b2b;
+}
+.a-imprint {
+    color: #0d1b2b;
+    font-weight: bold;
+    text-decoration: none;
+}
+.a-imprint:hover {
+    color: darkgrey;
+}
+.a-imprint:active {
+    color: #0d1b2b;
+}
+.a-article {
+    color: white;
+    text-decoration: none;
+}
+.a-article:hover {
+    color: #0a8acb;
+}
+.a-article:active {
+    color: white;
+}
