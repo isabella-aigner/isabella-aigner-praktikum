@@ -1,0 +1,454 @@
+/*---------------------------------------------navi----------------------------------------------*/
+.desktopNavi {
+    display: grid;
+    grid-column-start: grid14-start;
+    grid-column-end: grid14-end;
+    grid-row-start: nav-start;
+    grid-row-end: nav-line2;
+}
+.phoneNavi {
+    display: none;
+}
+
+.slider-quad {
+    display: none;
+}
+.slider-qf {
+    display: block;
+}
+
+/*---------------------------------------------slider----------------------------------------------*/
+.article-content {
+    width: 28em;
+}
+.article-date {
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.2em;
+}
+.article-title {
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+}
+.article-text {
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    padding-bottom: 3em;
+}
+.article-link {
+    font-family: 'Mukta', sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.werdegang-text, .werdegang-text-hobby {
+    align-self: center;
+}
+
+.article-text {
+    font-size: 1.0em;
+    line-height: 1.6em;
+    padding: 0;
+}
+
+/*---------------------------------------------project pages----------------------------------------------*/
+.projectDesktop {
+    display: grid;
+}
+.projectPhone {
+    display: none;
+}
+
+/*---------------------------------------------media queries----------------------------------------------*/
+
+@media(max-width: 1500px) {
+    /*---------------------------------------------werdegang----------------------------------------------*/
+    .skill-icons-adobe {
+        width: 5%;
+        height: 5%;
+    }
+}
+
+@media(max-width: 1300px) {
+    .article-img {
+        grid-column-start: grid12-start;
+        grid-column-end: grid12-line6;
+    }
+    .article-text {
+        grid-column-start: grid12-line6;
+        grid-column-end: grid12-end;
+        font-size: 0.9em;
+        line-height: 1.6em;
+    }
+    .project_img-hl .project_h2 {
+        font-size: 1.5em;
+    }
+    .project-text-h4 {
+        font-size: 0.9em;
+    }
+    .project-text-p {
+        font-size: 0.8em;
+        line-height: 1.3em;
+        padding-bottom: 4%;
+    }
+}
+
+@media(max-width: 1200px) {
+    /*---------------------------------------------navi----------------------------------------------*/
+    #desktop-navi--top-aboutMe, #desktop-navi--top-projects, #desktop-navi--top-news, #desktop-navi--top-contact {
+        font-size: 1.0em;
+    }
+    /*---------------------------------------------article slider----------------------------------------------*/
+    .article-slider {
+        height: 40vw !important;
+    }
+
+    /*---------------------------------------------kontaktformular landingpage----------------------------------------------*/
+    #kontakt #label-vorname, #kontakt #label-mail, #kontakt #label-nachname, #kontakt #label-telefon {
+        width: 10%;
+    }
+    #kontakt #input-vorname, #kontakt #input-mail, #kontakt #input-nachname, #kontakt #input-telefon {
+        width: 83%;
+        margin-right: 0;
+    }
+
+    .svgText svg {
+        width: 1.6%;
+    }
+}
+
+@media(max-width: 1100px) {
+    /*---------------------------------------------fonts----------------------------------------------*/
+    .werdegang-h3 {
+        font-size: 1.2em;
+    }
+    /*---------------------------------------------navi----------------------------------------------*/
+    #header-top--navi #naviLogo {
+        width: 30%;
+    }
+    /*---------------------------------------------projektunterseiten----------------------------------------------*/
+    .projct_single_img-section {
+        margin-bottom: 0.9%;
+    }
+}
+
+@media(max-width: 1000px) {
+    /*---------------------------------------------fonts----------------------------------------------*/
+    body, .werdegang-h2-info, .werdegang-beschreibung, .werdegang-h2-between-info {
+        font-size: 1.0em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    .werdegang-h2 {
+        font-size: 1.3em;
+    }
+    .werdegang-h2-between {
+        margin-bottom: 2%;
+        margin-top: 7%;
+        font-size: 1.7em;
+    }
+    .skill-icons-hobby {
+        height: 5%;
+        width: 5%;
+    }
+        /*---------------------------------------------article slider----------------------------------------------*/
+    .article-slider {
+        display: none;
+    }
+    /*---------------------------------------------kontaktformular landingpage----------------------------------------------*/
+    #kontakt {
+        padding-top: 0;
+    }
+
+    .project_img-hl .project_h2 {
+        font-size: 1.2em;
+    }
+    .project-text-h4 {
+        font-size: 0.9em;
+    }
+    .project-text-p {
+        font-size: 0.7em;
+        line-height: 1.1em;
+        padding-bottom: 4%;
+    }
+}
+
+@media(max-width: 900px) {
+    /*---------------------------------------------fonts----------------------------------------------*/
+    #angebote--abschnitte--boxlayout section a h3 {
+        font-size: 1.4em;
+    }
+    /*---------------------------------------------werdegang----------------------------------------------*/
+    .werdegang-icon img, .werdegang-icon-hobby img {
+        width: 90px;
+        height: 90px;
+    }
+    .skill-icons-adobe {
+        width: 7%;
+        height: 7%;
+    }
+    .skill-left {
+        grid-column-start: grid12-start;
+        grid-column-end: grid12-line4;
+    }
+    .skill-right {
+        grid-column-start: grid12-line4;
+        grid-column-end: grid12-end;
+    }
+    /*---------------------------------------------kontaktformular landingpage----------------------------------------------*/
+    #kontakt #label-vorname, #kontakt #label-mail, #kontakt #label-nachname, #kontakt #label-telefon {
+        width: 15%;
+    }
+    #kontakt #input-vorname, #kontakt #input-mail, #kontakt #input-nachname, #kontakt #input-telefon {
+        width: 78%;
+        margin-right: 0;
+    }
+    /*---------------------------------------------projektunterseiten----------------------------------------------*/
+    .project-cases-links {
+        font-size: 0.9em;
+    }
+    .svgText svg {
+        width: 2%;
+    }
+
+    .article-text {
+        font-size: 0.8em;
+        line-height: 1.4em;
+    }
+
+    .project-text-p {
+        font-size: 0.6em;
+        line-height: 0.8em;
+        padding-bottom: 6%;
+    }
+}
+
+@media(max-width: 720px) {
+    /*---------------------------------------------fonts----------------------------------------------*/
+    .werdegang-h2-info, .werdegang-beschreibung,.werdegang-h2-between-info {
+        font-size: 0.9em;
+        margin-bottom: 7%;
+    }
+    .werdegang-button {
+        font-size: 0.8em;
+    }
+    .werdegang-h3 {
+        font-size: 1.1em;
+        line-height: 1.3em;
+    }
+    .werdegang-time {
+        font-size: 0.9em;
+    }
+    .skill-icons-hobby {
+        height: 7%;
+        width: 7%;
+    }
+    /*---------------------------------------------werdegang----------------------------------------------*/
+    .werdegang-icon img, .werdegang-icon-hobby img {
+        width: 70px;
+        height: 70px;
+    }
+    .skill-left {
+        grid-column-start: grid12-start;
+        grid-column-end: grid12-end;
+        font-weight: bold;
+        margin-top: 1% !important;
+    }
+    .skill-right {
+        grid-column-start: grid12-start;
+        grid-column-end: grid12-end;
+        margin-bottom: 1%;
+
+    }
+    .skill-icons-adobe {
+        width: 5%;
+        height: 5%;
+    }
+    .skill-section h4 {
+        text-transform: uppercase;
+        font-family: 'Mukta', sans-serif;
+        margin-bottom: 1%;
+        font-size: 1.1em;
+        margin-top: 6%;
+    }
+    /*---------------------------------------------navi----------------------------------------------*/
+    .desktopNavi {
+        display: none;
+    }
+    .phoneNavi {
+        display: grid;
+        grid-column-start: grid14-start;
+        grid-column-end: grid14-end;
+        grid-row-start: nav-start;
+        grid-row-end: nav-line2;
+    }
+    #header-top--navi #naviLogo {
+        width: 20%;
+    }
+    .slider-qf {
+        display: none;
+    }
+    .slider-quad {
+        display: block;
+    }
+
+    #phone-navi--top-menue-nav ul li, #phone-navi--top-menue-aboutMe-nav ul li, #phone-navi--top-menue-projects-nav ul li {
+        font-size: 0.9em !important;
+    }
+
+    .werdegang-button-grid {
+        margin-bottom: 1px;
+    }
+
+    /*---------------------------------------------kontaktformular landingpage----------------------------------------------*/
+    #kontakt #label-vorname, #kontakt #label-mail, #kontakt #label-nachname, #kontakt #label-telefon {
+        width: 20%;
+    }
+    #kontakt #input-vorname, #kontakt #input-mail, #kontakt #input-nachname, #kontakt #input-telefon {
+        width: 73%;
+        margin-right: 0;
+    }
+    /*---------------------------------------------projektunterseiten----------------------------------------------*/
+    .projct_single_img-section {
+        margin-bottom: 1.3%;
+    }
+    .project-cases-links {
+        font-size: 1.0em;
+        line-height: 1.4em;
+    }
+    .svgText svg {
+        width: 2.4%;
+    }
+
+    .article-img {
+        grid-column-start: grid12-start;
+        grid-column-end: grid12-end;
+    }
+    .article-text {
+        grid-column-start: grid12-start;
+        grid-column-end: grid12-end;
+        font-size: 0.9em;
+        line-height: 1.6em;
+        margin-top: 5%;
+    }
+    .news-date p {
+        margin-top: 0;
+        margin-bottom: 2%;
+    }
+    .news-hl {
+        margin-bottom: 2%;
+        margin-top: 3%;
+    }
+
+    #impMail {
+        grid-column-start: grid14-line2;
+        grid-column-end: grid14-line15;
+    }
+    #impTel {
+        grid-column-start: grid14-line2;
+        grid-column-end: grid14-line15;
+    }
+
+    /*---------------------------------------------project pages----------------------------------------------*/
+    .projectDesktop {
+        display: none;
+    }
+    .projectPhone {
+        display: grid;
+    }
+
+    .project_img-hl .project_h2 {
+        font-size: 1.4em;
+    }
+    .project-text-h4 {
+        margin-bottom: 0;
+        margin-top: 1%;
+        font-size: 1.0em;
+    }
+    .project-text-p {
+        margin: 0;
+        font-size: 0.9em;
+        line-height: 1.4em;
+    }
+}
+
+@media(max-width: 580px) {
+    /*---------------------------------------------fonts----------------------------------------------*/
+    .werdegang-beschreibung {
+        display: none;
+    }
+    .werdegang-time {
+        font-size: 0.8em;
+    }
+    .werdegang-text, .werdegang-text-hobby {
+        padding-left: 5%;
+        align-self: center;
+    }
+    .werdegang-h2-between {
+        font-size: 1.5em;
+        margin-top: 5%;
+    }
+    /*---------------------------------------------werdegang----------------------------------------------*/
+    .werdegang-icon, .werdegang-icon-hobby {
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .skill-icons-adobe {
+        width: 8%;
+        height: 8%;
+    }
+    /*---------------------------------------------kontaktformular landingpage----------------------------------------------*/
+    #kontakt #label-vorname, #kontakt #label-mail, #kontakt #label-nachname, #kontakt #label-telefon {
+        width: 100%;
+    }
+    #kontakt #input-vorname, #kontakt #input-mail, #kontakt #input-nachname, #kontakt #input-telefon {
+        width: 100%;
+        margin-right: 0;
+    }
+    .project-cases-links {
+        display: none;
+    }
+    .projectInfoTextP {
+        padding-bottom: 3%;
+        font-size: 0.9em;
+        line-height: 1.5em;
+    }
+
+    #phone-navi--top-menue-nav ul li, #phone-navi--top-menue-aboutMe-nav ul li, #phone-navi--top-menue-projects-nav ul li {
+        font-size: 0.8em !important;
+    }
+    .werdegang-button-grid {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 500px) {
+    /*---------------------------------------------navi----------------------------------------------*/
+    #phone-navi--top-menue-nav ul li, #phone-navi--top-menue-aboutMe-nav ul li, #phone-navi--top-menue-projects-nav ul li {
+        font-size: 0.7em !important;
+    }
+    /*---------------------------------------------fonts----------------------------------------------*/
+    h2 {
+        font-size: 1.1em;
+    }
+    #angebote--abschnitte--boxlayout section a h3 {
+        font-size: 1.2em;
+    }
+    /*---------------------------------------------werdegang----------------------------------------------*/
+    .skill-icons-hobby {
+        height: 8%;
+        width: 8%;
+    }
+    .svgText svg {
+        width: 3%;
+    }
+
+    .project-text-h4 {
+        font-size: 0.9em;
+        margin-top: 3%;
+    }
+    .project-text-p {
+        font-size: 0.8em;
+    }
+}

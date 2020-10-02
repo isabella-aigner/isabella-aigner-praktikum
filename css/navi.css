@@ -1,0 +1,401 @@
+/*-----------------------------------------------------*/
+/*grid*/
+#nav-site-rows {
+    grid-template-rows: [nav-start] auto [nav-line2] auto [nav-line3] auto [nav-end];
+}
+
+#header-top--navi-bg {
+    grid-column-start: grid14-start;
+    grid-column-end: grid14-end;
+    grid-row-start: nav-start;
+    grid-row-end: nav-line2;
+}
+#header-top--navi {
+    grid-column-start: grid14-start;
+    grid-column-end: grid14-end;
+    grid-row-start: nav-start;
+    grid-row-end: nav-line2;
+}
+#header-top--navi ul li {
+    grid-template-rows: [nav-li-row-start] 1fr [nav-li-row-end];
+    justify-self: stretch;
+}
+#header-top--picture {
+    grid-column-start: grid14-start;
+    grid-column-end: grid14-end;
+    grid-row-start: nav-line2;
+    grid-row-end: nav-line3;
+}
+#header-top--headline {
+    grid-column-start: grid14-start;
+    grid-column-end: grid14-end;
+    grid-row-start: nav-line3;
+    grid-row-end: nav-end;
+}
+#header-top-droptdown {
+    display: none;
+}
+
+/*-----------------------------------------------------*/
+/*Header Navigation*/
+#header-top--navi {
+    background-color: #060c13;
+}
+#header-top--navi #header-top--logo {
+    justify-self: center;
+    height: 30px;
+    width: 40px
+}
+#naviLogo div {
+    text-align: left;
+    padding-left: 25%;
+}
+#header-top--navi-bg {
+    background-color: #060c13;
+}
+#header-top--navi ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#header-top--navi ul li {
+    justify-self: stretch;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #060c13;
+    font-size: 1.1em;
+    align-self: center;
+    padding: 8% 0%;
+}
+#header-top--navi ul li:last-of-type {
+    margin-right: 1%;
+}
+#header-top--navi ul li:first-of-type {
+    margin-left: 1%;
+}
+#header-top--navi a {
+    text-decoration: none;
+    color: white;
+}
+/*-----------------------------------------------------*/
+
+#header-top-droptdown {
+    display: none;
+}
+#header-top--navi ul li:link {
+    color: #fff;
+}
+#header-top--navi ul li a:link {
+    color: inherit;
+    text-decoration: none;
+}
+#header-top--navi ul li:hover {
+    background-color: #fff;
+    color: #060c13;
+    transition: background-color ease 0.4s;
+}
+#header-top--navi ul li a:hover {
+    color: inherit;
+}
+#header-top--navi ul li:active {
+    color: #fff;
+    background-color: #060c13;
+    transition: background-color ease 0.4s;
+}
+#header-top--navi ul li a:active {
+    color: inherit;
+}
+#header-top--navi ul li:visited {
+    color: #DCE9EE;
+}
+#header-top--navi ul li a:visited {
+    color: inherit;
+}
+
+#header-top--navi #naviLogo:hover { background-color: #060c13; }
+#header-top--navi #naviLogo:active { background-color: #060c13; }
+#header-top--navi #naviLogo #header-top--logo:hover  { fill: #BCD3DC; }
+#header-top--navi #naviLogo #header-top--logo:active { fill: white; }
+
+/*---------------------------------------------------------------------------*/
+/*slider images*/
+
+.header-top--slider { width: 100%; }
+
+#header-top--picture {
+    z-index: -1;
+    position: relative;
+}
+
+#header-top--fb-logo {
+    position: fixed;
+    right: -15px;
+    top: 150px;
+    width: 60px;
+    height: 60px;
+    z-index: 999;
+}
+#header-top--fb-logo:hover {
+    right: 0px;
+    transition: 1s;
+}
+
+#header-top--slider {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+#header-top--headline {
+    font-size: 80%;
+    background-color: RGBA(51,60,66,0.5);
+    color: white;
+    font-weight: lighter;
+    padding-left: 20px;
+    margin-top: -100px;
+}
+
+#header-top--picture h1 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/*--------------------footer--------------------*/
+/*Footer*/
+#footer--grid {
+    display: grid;
+    grid-template-columns: [grid12-start] 1fr [grid12-line2] 1fr [grid12-line3] 1fr [grid12-line4] 1fr [grid12-line5] 1fr [grid12-line6] 1fr [grid12-line7] 1fr [grid12-line8] 1fr [grid12-line9] 1fr [grid12-line10] 1fr [grid12-line11] 1fr [grid12-line12] 1fr [grid14-end];
+    grid-column-gap: 40px;
+}
+#footer--kontakt {
+    grid-column-start: grid12-start;
+    grid-column-end: grid12-line9;
+}
+footer h3 {
+    grid-column-start: grid12-line9;
+    grid-column-end: grid12-line12;
+    margin: 0;
+}
+#footer--nach-oben {
+    grid-column-start: grid12-line12;
+    grid-column-end: grid12-line12;
+    justify-self: end;
+}
+
+/*Footer*/
+footer {
+    color: #fff;
+    background-color: #060c13;
+}
+footer section p {
+    font-size: 0.8em;
+}
+footer h3{
+    font-family: 'Open Sans', Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+footer h3 a {
+    color: inherit;
+}
+footer a:link {
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer a:active {
+    color: #333C42;
+}
+footer a:visited {
+    text-decoration: underline;
+}
+
+/*Footer*/
+footer section {
+    padding: 20px 0;
+}
+footer p {
+    margin: 0;
+}
+footer p:last-of-type {
+    margin-top: 10px;
+}
+
+/*----------------media query footer---------------*/
+@media (max-width: 600px) {
+    #footer--nach-oben {
+        margin-top: -80px;
+    }
+}
+
+/*-----------------------------*/
+#header-top--navi .active-link {
+    background-color: white;
+    color: #060c13;
+}
+
+#header-top--navi .active-link a {
+    color: #060c13;
+}
+
+/*--------------------------------------*/
+/*desktop logo mit dropdown elementen*/
+#header-top--navi {
+    margin: 0 !important;
+    list-style-type: none;
+    z-index: 9999999;
+}
+#header-top--navi #naviLogo {
+    align-self: center;
+    padding-top: 2%;
+    padding-left: 7%;
+}
+#header-top--navi #naviLogo {
+    width: 20%;
+}
+#header-top--navi #naviLogo:hover .naviLogo-white {
+    fill: lightgrey;
+}
+#header-top--navi #naviLogo:hover .naviLogo-black {
+    fill: white;
+}
+#header-top--navi #naviLogo:hover .naviLogo-transp {
+    fill: grey;
+}
+
+#desktop-navi--top-aboutMe, #desktop-navi--top-projects, #desktop-navi--top-news, #desktop-navi--top-contact {
+    height: 40px;
+    padding: 5% 0%;
+    background-color: #060c13;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+}
+#desktop-navi--top-aboutMe:hover, #desktop-navi--top-projects:hover, #desktop-navi--top-news:hover, #desktop-navi--top-contact:hover {
+    background-color: #fff;
+    color: #060c13;
+}
+#desktop-navi--top-aboutMe:hover a, #desktop-navi--top-projects:hover a, #desktop-navi--top-news:hover a, #desktop-navi--top-contact:hover a {
+    color: #060c13;
+}
+#deskto-navi--top-aboutMe:active, #desktop-navi--top-projects:active, #desktop-navi--top-news:active, #desktop-navi--top-contact:active {
+    background-color: #333C42;
+}
+#desktop-navi--top-aboutMe a, #desktop-navi--top-projects a, #desktop-navi--top-news a, #desktop-navi--top-contact a {
+    background-color: inherit;
+}
+#desktop-navi--top-aboutMe #desktop-navi--top-aboutMe-nav, #desktop-navi--top-projects #desktop-navi--top-projects-nav {
+    display: none;
+}
+#desktop-navi--top-aboutMe:hover #desktop-navi--top-aboutMe-nav, #desktop-navi--top-projects:hover #desktop-navi--top-projects-nav {
+    display: block;
+}
+#desktop-navi--top-aboutMe-nav ul, #desktop-navi--top-projects-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+}
+#desktop-navi--top-aboutMe-nav ul li, #desktop-navi--top-projects-nav ul li {
+    padding: 5px 0;
+    background-color: rgba(6,12,19,0.8);
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #333C42;
+    margin: 0 !important;
+    font-size: 0.8em !important;
+}
+#desktop-navi--top-aboutMe-nav ul li:hover, #desktop-navi--top-projects-nav ul li:hover{
+    background-color: #fff;
+    color: #060c13;
+    border: 1px solid #060c13;
+}
+#desktop-navi--top-aboutMe-nav ul li:first-of-type, #desktop-navi--top-projects-nav ul li:first-of-type {
+    padding-top: 5px;
+}
+#desktop-navi--top-aboutMe-nav ul li:last-of-type, #desktop-navi--top-projects-nav ul li:last-of-type {
+    padding-bottom: 5px;
+}
+#desktop-navi--top-aboutMe-nav ul li a, #desktop-navi--top-projects-nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+}
+
+
+#phone-navi--top-menue {
+    height: 40px;
+    padding: 4% 0% 2% 0%;
+    background-color: #060c13;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+}
+#phone-navi--top-menue:hover {
+    background-color: #fff;
+    color: #060c13;
+}
+#phone-navi--top-menue:hover svg {
+    fill: #0d1b2b;
+}
+#phone-navi--top-menue:active {
+    background-color: #333C42;
+}
+#phone-navi--top-menue:active svg {
+    fill: white;
+}
+#phone-navi--top-menue a {
+    background-color: inherit;
+}
+#phone-navi--top-menue #phone-navi--top-menue-nav {
+    display: none;
+}
+#phone-navi--top-menue:hover #phone-navi--top-menue-nav {
+    display: block;
+}
+#phone-navi--top-menue-nav ul li, #phone-navi--top-menue-aboutMe-nav ul li, #phone-navi--top-menue-projects-nav ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+}
+#phone-navi--top-menue-nav ul li, #phone-navi--top-menue-aboutMe-nav ul li, #phone-navi--top-menue-projects-nav ul li {
+    padding: 5px 0;
+    background-color: rgba(6,12,19,0.8);
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #333C42;
+    margin: 0 !important;
+    font-size: 0.8em !important;
+}
+#phone-navi--top-menue-nav ul li:hover, #phone-navi--top-menue-aboutMe-nav ul li:hover, #phone-navi--top-menue-projects-nav ul li:hover {
+    background-color: #fff;
+    color: #060c13;
+    border: 1px solid #060c13;
+}
+#phone-navi--top-menue-nav ul li:first-of-type, #phone-navi--top-menue-aboutMe-nav ul li:first-of-type, #phone-navi--top-menue-projects-nav ul li:first-of-type {
+    padding-top: 5px;
+}
+#phone-navi--top-menue-nav ul li:last-of-type, #phone-navi--top-menue-aboutMe-nav ul li:last-of-type, #phone-navi--top-menue-projects-nav ul li:last-of-type {
+    padding-bottom: 5px;
+}
+#phone-navi--top-menue-nav ul li a, #phone-navi--top-menue-aboutMe-nav ul li a, #phone-navi--top-menue-projects-nav ul li a {
+    color: inherit;
+    text-decoration: none;
+    background-color: rgba(0,0,0,0);
+}
+#phone-navi--top-menue-projects-nav {
+    display: none;
+}
+/*logo ende*/
