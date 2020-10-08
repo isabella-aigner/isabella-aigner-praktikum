@@ -122,6 +122,16 @@
     background-color: #eef4f6;
 }
 
+
+#about-isabella {
+    margin-bottom: 6%;
+}
+
+.angebote-index{
+    background-color: #DCE9EE;
+    color: #0d1b2b;
+}
+
 /*----------------------------------- kategorie layout ---------------------------*/
 /*Layout Boxen*/
 #angebote--abschnitte--boxlayout section {
@@ -138,13 +148,14 @@
     font-size: 90%;
 }
 #angebote--abschnitte--boxlayout section a h3 {
-    background-color: #060c13;
+    background-color: #0d1b2b;
     text-align: center;
     padding: 20px 0;
     margin-top: 0;
     margin-bottom: 0;
     border-radius: 0 0 5px 5px;
     font-family: 'Mukta', 'Open Sans', Arial, Verdana, sans-serif;
+    color: white;
 }
 #angebote--abschnitte--boxlayout section a img {
     border-radius: 5px 5px 0 0;
