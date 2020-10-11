@@ -24,3 +24,8 @@ body {
 .bg-light-alpha { background-color: rgba(220, 223, 238, 0.7);}
 .bg-dark { background-color: #BCD3DC; }
 .bg-dark-alpha { background-color: rgba(188 211, 220, 0.5); }
+
+.writing-p {
+    margin: 0;
+    padding-bottom: 1%;
+}
