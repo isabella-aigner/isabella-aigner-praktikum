@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="de">
+    <div id="portfolioVue">
+        <head>
+            <meta charset="UTF-8">
+
+            <meta property="og:type" content="website">
+            <meta name="description" property="og:site_name" content="Isabella Aigner - Kommunikationsdesign">
+            <meta name="keywords" content="Portfolio, Web, Grafik, Corporate, Fotografie, Illustration, 3D">
+            <meta name="author" content="Isabella Aigner">
+            <meta name="copyright" content="Isabella Aigner">
+            <meta data-vue-meta="1" name="viewport" content="width=device-width, initial-scale=1">
+
+            <link rel="shortcut icon" type="image/ico" href="../../favicon.ico">
+            <title>Isabella Aigner - Portfolio</title>
+
+            <script src="../../lib/vue.min.js"></script>
+
+            <link rel="stylesheet" type="text/css" href="../../css/main.css">
+            <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i%7CMontez%7COpen+Sans:400,400i" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+
+        </head>
+
+        <body>
+        <div class="loader">
+            <img src="../../loading/Preloader_1.gif" alt="Loading...">
+            <p id="loaderfont"></p>
+        </div>
+
+        <script type="text/javascript">
+            window.addEventListener("load", function() {
+                const loader = document.querySelector(".loader");
+                loader.className += " hidden";
+            })
+        </script>
+
+        <header>
+            <!-- -------------------------------------main menue desktop----------------------------------------------------->
+            <div id ="nav-site-rows" class="base-site-grid-14">
+                <!--------------------- desktop navi--------------------------->
+                <ul id="header-top--navi" class="base-site-grid-5 desktopNavi">
+
+                    <!---------------------Logo Navigation-------------------->
+                    <li id="naviLogo">
+                        <div class="normalize">
+                            <a href="../../index.html">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 252.8 187.4" enable-background="new 0 0 252.8 187.4" xml:space="preserve">
+<circle class="naviLogo-white" fill="#FFFFFF" cx="117.8" cy="93.7" r="87"/>
+<g opacity="0.5">
+	<path class="naviLogo-transp" fill="#808285" d="M12.6,140.5c8.6-0.7,132.5-51.3,158.2-87.3l11.9-8.3c2.6,2,4.6,7.6,0,21.6s-23.1,45-33.6,49.6
+		c-10.5,4.6-28.9,12.5-50,9.2c0,0,29.6-5.3,46.7-21.1s29-33.9,30.3-37.7c1.3-3.8-87,68-130.5,74C2.1,146.4,12.6,140.5,12.6,140.5z"
+		/>
+	<path class="naviLogo-transp" fill="#808285" d="M185.4,73.2l-21.2,52.1c0,0,4.6,4.6,18.5,0c13.8-4.6,62.6-39.2,62.6-39.2s-17.1,5.6-21.1,7.9
+		s-51.4,35.9-49.4,26.7c2-9.2,19.8-54.2,19.8-54.2L185.4,73.2z"/>
+</g>
+<path class="naviLogo-black" d="M8.6,138.5c8.6-0.7,132.5-51.3,158.2-87.3l11.9-8.3c2.6,2,4.6,7.6,0,21.6c-4.6,14-23.1,45-33.6,49.6
+	c-10.5,4.6-28.9,12.5-50,9.2c0,0,29.6-5.3,46.7-21.1s29-33.9,30.3-37.7s-87,68-130.5,74C-1.9,144.4,8.6,138.5,8.6,138.5z"/>
+<path class="naviLogo-black" d="M181.4,71.2l-21.2,52.1c0,0,4.6,4.6,18.5,0c13.8-4.6,62.6-39.2,62.6-39.2s-17.1,5.6-21.1,7.9s-51.4,35.9-49.4,26.7
+	c2-9.2,19.8-54.2,19.8-54.2L181.4,71.2z"/>
+</svg>
+                            </a>
+                        </div>
+                    </li>
+                    <!-----------------------Navigationspunkte--------------------------->
+                    <li></li>
+                    <li id="desktop-navi--top-aboutMe">
+                        <a href="#">
+                            Über Isabella
+                        </a>
+                        <div id="desktop-navi--top-aboutMe-nav">
+                            <ul>
+                                <li><a href="../../index.html#kurzvorstellungID">Kurzvorstellung</a></li>
+                                <li><a href="../../werdegang.html#werdegangID">Werdegang</a></li>
+                                <li><a href="../../werdegang.html#skillsID">Kompetenzen</a></li>
+                                <li><a href="../../download.html">Downloads</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="desktop-navi--top-projects">
+                        <a href="#">
+                            Projekte
+                        </a>
+                        <div id="desktop-navi--top-projects-nav">
+                            <ul>
+                                <!--<li @click="goToProjectBranding"><a href="#">Marke</a></li>-->
+                                <li><a href="../../web.html">Web</a></li>
+                                <li><a href="../../grafik.html">Grafik</a></li>
+                                <li><a href="../../freieProjekte.html">Freie Projekte</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li id="desktop-navi--top-contact">
+                        <a href="../../kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+                <!--------------------- phone navi--------------------------->
+                <ul id="header-top--navi" class="base-site-grid-2 phoneNavi">
+
+                    <!---------------------Logo Navigation-------------------->
+                    <li id="naviLogo">
+                        <div class="normalize">
+                            <a href="../../index.html">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 252.8 187.4" enable-background="new 0 0 252.8 187.4" xml:space="preserve">
+<circle class="naviLogo-white" fill="#FFFFFF" cx="117.8" cy="93.7" r="87"/>
+<g opacity="0.5">
+	<path class="naviLogo-transp" fill="#808285" d="M12.6,140.5c8.6-0.7,132.5-51.3,158.2-87.3l11.9-8.3c2.6,2,4.6,7.6,0,21.6s-23.1,45-33.6,49.6
+		c-10.5,4.6-28.9,12.5-50,9.2c0,0,29.6-5.3,46.7-21.1s29-33.9,30.3-37.7c1.3-3.8-87,68-130.5,74C2.1,146.4,12.6,140.5,12.6,140.5z"
+		/>
+	<path class="naviLogo-transp" fill="#808285" d="M185.4,73.2l-21.2,52.1c0,0,4.6,4.6,18.5,0c13.8-4.6,62.6-39.2,62.6-39.2s-17.1,5.6-21.1,7.9
+		s-51.4,35.9-49.4,26.7c2-9.2,19.8-54.2,19.8-54.2L185.4,73.2z"/>
+</g>
+<path class="naviLogo-black" d="M8.6,138.5c8.6-0.7,132.5-51.3,158.2-87.3l11.9-8.3c2.6,2,4.6,7.6,0,21.6c-4.6,14-23.1,45-33.6,49.6
+	c-10.5,4.6-28.9,12.5-50,9.2c0,0,29.6-5.3,46.7-21.1s29-33.9,30.3-37.7s-87,68-130.5,74C-1.9,144.4,8.6,138.5,8.6,138.5z"/>
+<path class="naviLogo-black" d="M181.4,71.2l-21.2,52.1c0,0,4.6,4.6,18.5,0c13.8-4.6,62.6-39.2,62.6-39.2s-17.1,5.6-21.1,7.9s-51.4,35.9-49.4,26.7
+	c2-9.2,19.8-54.2,19.8-54.2L181.4,71.2z"/>
+</svg>
+                            </a>
+                        </div>
+                    </li>
+                    <!-----------------------Navigationspunkte--------------------------->
+                    <li id="phone-navi--top-menue">
+                        <a @click="showPhoneTopMenue"  href="#">
+                            <svg version="1.1"
+                               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 124 124"
+                               width="100%" height="100%" xml:space="preserve" fill="white" style="width: 40px; height: 30px;">
+                                <g>
+                                    <path d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z"/>
+                                    <path d="M112,50H12C5.4,50,0,55.4,0,62s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,50,112,50z"/>
+                                    <path d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z"/>
+                                </g>
+                            </svg>
+                        </a>
+                        <div v-bind:style="'display: ' + phoneMenueTop" id="phone-navi--top-menue-nav">
+                            <ul id="phone-navi--top-menue-aboutMe">
+                                <li><a @click="showAboutMeInside" href="#">Über Isabella</a>
+                                    <ul v-bind:style="'display: ' + aboutMeInside" id="phone-navi--top-menue-aboutMe-nav">
+                                        <li><a href="../../index.html#kurzvorstellungID">Kurzvorstellung</a></li>
+                                        <li><a href="../../werdegang.html#werdegangID">Werdegang</a></li>
+                                        <li><a href="../../werdegang.html#skillsID">Kompetenzen</a></li>
+                                        <li><a href="../../download.html">Downloads</a></li>
+                                    </ul>
+                                </li>
+                                <li><a @click="showProjectInside" href="#">Projekte</a>
+                                    <ul v-bind:style="'display: ' + projectInside">
+                                        <li><a href="../../web.html">Web</a></li>
+                                        <li><a href="../../grafik.html">Grafik</a></li>
+                                        <li><a href="../../freieProjekte.html">Freie Projekte</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../../kontakt.html">Kontakt</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <!--------------------------------------------- header pictures --------------------------------------------->
+                <div id="header-top--picture" class="w3-content w3-display-container">
+                    <!-------------------------------------------------Projekte Einzelseiten------------------------------>
+                    <img class="header-top--slider header-top--slider-none slider-qf slider-quad" >
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="normalize">
+                <div class="base-site-grid-14 projektePage_single-top">
+                    <div class="base-site-grid-layout">
+                        <div class="project-cases-links-top">
+                            <a href="../../web.html">Web</a> ▪
+                            <a href="../../grafik.html">Grafik</a> ▪
+                            <a href="../../freieProjekte.html">Freie Projekte</a> ▪
+                            <a href="../schriftstuecke.html">Schriftstücke</a>
+                        </div>
+                        <h2>40,9° Plus</h2>
+                    </div>
+                </div>
+                <div class="after-header"></div>
+                <div class="project_single_img-14grid">
+                    <div class="project_single_img-12">
+                        <p class="writing-p">Es ist heiß. Heißer als heiß sogar. Die Hitze, welche sich im ganzen Raum zu stauen scheint, ist so immens intensiv, so unterträglich und nervenaufreibend, dass nichts auf der Welt sie in diesem Augenblick durchbrechen könnte – kein kalter Wind, keine stürmische Nacht, nicht einmal eine plötzlich eintretende Eiszeit. Auch die Größe des Raumes bietet hierbei keine Hilfe. Dieser scheint – jeglicher logischer Erklärung und zur Kühlung dienender Ausrüstung zu trotz – die Hitzeteilchen regelrecht anzuziehen. Sogar Wände und Mobiliar des Raumes, erzürnt durch die undurchdringliche Mauer der Inhumanität, biegen und wenden sich unerlässlich.</p>
+                        <p class="writing-p">Im Zentrum dieser surrealistisch erscheinenden Bewegung von breitläufig erhitzter Luft und sich verbiegenden Extremitäten des Raumes befindet sich die Quelle dieser anomalistischen Bewegung. Schwer atmend wippt sie langsam hin und her. Eine leise summende Melodie entweicht ihren trockenen Lippen, welche sich sogleich mit dem Lied aus den nicht weit entfernten Lautsprechern paart. Auf ihrem Gesicht befindet sich ein gelassener und entspannter Ausdruck, dessen Fröhlichkeit und Ruhe durch nichts gebrochen werden kann.</p>
+                        <p class="writing-p">Die kalten Schauer, welche die Hitze von Zeit zu Zeit durch ihren ganzen Körper jagt, beschreiten eine Unwichtigkeit, die diese nicht einmal mehr in ihre Wahrnehmung vordringen lassen. Einen Handgriff entfernt liegt ein kleines gläsernes Thermometer, dessen Quecksilber-Anzeige 40,9° Celsius lesen lässt. Nichts desto trotz scheint auch dieser Umstand die am Bett sitzende Person nicht weiter zu stören. Denn dieser Tag – zu dem sich eventuell ein bis zwei andere hinzugesellen könnten – dieser Tag gehört einzig und allein ihr.</p>
+                        <p class="normalize">Als sie am Morgen mit trockenem Hals und schwirrendem Kopf ihren Chef anrufen musste, machte ihr Bewusstsein in ungeduldiger Erwartung schon Freudensprünge. Nun hat sie alles was sie braucht um sich ausgebreitet und obgleich der schwirrende Kopf und die trockene Kehle sie eigentlich noch immer plagen sollten, ist ihr trotz allem bewusst, was sie mit dieser vielen Zeit anfangen wird. Beflügelt greift sie zu einem Stift ganz in ihrer Nähe – einer der vielen Gegenstände, die sie um sich ausgebreitet hatte – und setzt diesen schmunzelnd an der Oberfläche eines leeren Blatt Papiers an…
+                        </p>
+                    </div>
+                </div>
+                <div class="before-footer"></div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="site_width height_center base-site-grid-14">
+                <section class="base-site-grid-layout" id="footer--grid">
+                    <div id="footer--kontakt">
+                        <p> Isabella Aigner<br>
+                            Grafik & Design</p>
+                        <p> Tel: <a href="tel:069911314663">0699 113 14 663</a><br>
+                            Mail: <a href="mailto:S1810238002@students.fh-hagenberg.at?cc=S1810238002@students.fh-hagenberg.at&bcc=isabella.aigner@yahoo.de&subject=Nachricht%20durch%20Kontaktformulare&amp;body=Sehr%20geehrte%20Frau%20Aigner&sbquo;" target="_top">isabella.aigner@yahoo.de</a></p>
+                    </div>
+                    <h3><a href="../../impressum.html">Impressum</a></h3>
+                    <a id="footer--nach-oben" href="#top"><img src="../../images/index/flaticon_right-arrow.svg" height="15" alt="Pfeil Verlinkung auf Seitenanfang" /></a>
+                </section>
+            </div>
+        </footer>
+
+
+        <div style="display: none;">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              enable-background="new 0 0 131.1 108.8" xml:space="preserve">
+                        <symbol id="logo" viewBox="0 0 131.1 108.8" fill="white">
+        <path d="M127.8,2.7l-78,52c0,0,59.1,36.6,60.6,37.6c6.5,4.3,11,5.4,10-5c-4.7-48.1-5.7-63.1-5.7-63.1l7.9-5.4c0.6-0.4,1.5,0,1.6,0.7
+            c0.6,5.5,4.8,61.9,5.2,70.8c1.1,24.7-7.3,18.4-18.9,13.1C105.6,101.3,3,43.3,2.7,42.3c-0.5-1.5,8.1-5.7,9.1-6.3
+            c24.2-13,81-24.4,97.1-28.6C115.2,5.8,121.5,3.8,127.8,2.7"/>
+                            </symbol>
+                    </svg>
+
+        </div>
+
+        <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+        <script src="../../js/slider_news.js"></script>
+        <script src="../../js/carousel.js"></script>
+        <script src="../../js/portfolio.js"></script>
+
+        </body>
+        </div>
+</html>

@@ -47,7 +47,7 @@
                     <!---------------------Logo Navigation-------------------->
                     <li id="naviLogo">
                         <div class="normalize">
-                            <a @click="goToAboutMe">
+                            <a href="index.html">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 252.8 187.4" enable-background="new 0 0 252.8 187.4" xml:space="preserve">
 <circle class="naviLogo-white" fill="#FFFFFF" cx="117.8" cy="93.7" r="87"/>
@@ -69,15 +69,15 @@
                     <!-----------------------Navigationspunkte--------------------------->
                     <li></li>
                     <li id="desktop-navi--top-aboutMe">
-                        <a @click="goToCareer" href="#">
+                        <a href="#">
                             Über Isabella
                         </a>
                         <div id="desktop-navi--top-aboutMe-nav">
                             <ul>
-                                <li><a @click="goToAboutMe" href="#about-isabella-h2">Kurzvorstellung</a></li>
-                                <li><a @click="goToCareer" href="#werdegang-introduction">Werdegang</a></li>
-                                <li><a @click="goToCareer" href="#werdegang-skills">Kompetenzen</a></li>
-                                <li><a @click="goToDownloadPage" href="#">Downloads</a></li>
+                                <li><a href="index.html#kurzvorstellungID">Kurzvorstellung</a></li>
+                                <li><a href="werdegang.html#werdegangID">Werdegang</a></li>
+                                <li><a href="werdegang.html#skillsID">Kompetenzen</a></li>
+                                <li><a href="download.html">Downloads</a></li>
                             </ul>
                         </div>
                     </li>
@@ -88,14 +88,14 @@
                         <div id="desktop-navi--top-projects-nav">
                             <ul>
                                 <!--<li @click="goToProjectBranding"><a href="#">Marke</a></li>-->
-                                <li @click="goToProjectWeb"><a href="#">Web</a></li>
-                                <li @click="goToProjectAdvertising"><a href="#">Grafik</a></li>
-                                <li @click="goToProjectFreeProjects"><a href="#">Freie Projekte</a></li>
+                                <li><a href="web.html">Web</a></li>
+                                <li><a href="grafik.html">Grafik</a></li>
+                                <li><a href="freieProjekte.html">Freie Projekte</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li @click="goToContact" id="desktop-navi--top-contact">
-                        <a href="#">Kontakt</a>
+                    <li id="desktop-navi--top-contact">
+                        <a href="kontakt.html">Kontakt</a>
                     </li>
                 </ul>
                 <!--------------------- phone navi--------------------------->
@@ -104,7 +104,7 @@
                     <!---------------------Logo Navigation-------------------->
                     <li id="naviLogo">
                         <div class="normalize">
-                            <a @click="goToAboutMe">
+                            <a href="index.html">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 252.8 187.4" enable-background="new 0 0 252.8 187.4" xml:space="preserve">
 <circle class="naviLogo-white" fill="#FFFFFF" cx="117.8" cy="93.7" r="87"/>
@@ -140,20 +140,20 @@
                             <ul id="phone-navi--top-menue-aboutMe">
                                 <li><a @click="showAboutMeInside" href="#">Über Isabella</a>
                                     <ul v-bind:style="'display: ' + aboutMeInside" id="phone-navi--top-menue-aboutMe-nav">
-                                        <li><a @click="goToAboutMe" href="#about-isabella-h2">Kurzvorstellung</a></li>
-                                        <li><a @click="goToCareer" href="#werdegang-introduction">Werdegang</a></li>
-                                        <li><a @click="goToCareer" href="#werdegang-skills">Kompetenzen</a></li>
-                                        <li><a @click="goToDownloadPage" href="#">Downloads</a></li>
+                                        <li><a href="index.html#kurzvorstellungID">Kurzvorstellung</a></li>
+                                        <li><a href="werdegang.html#werdegangID">Werdegang</a></li>
+                                        <li><a href="werdegang.html#skillsID">Kompetenzen</a></li>
+                                        <li><a href="download.html">Downloads</a></li>
                                     </ul>
                                 </li>
                                 <li><a @click="showProjectInside" href="#">Projekte</a>
                                     <ul v-bind:style="'display: ' + projectInside">
-                                        <li @click="goToProjectWeb"><a href="#">Web</a></li>
-                                        <li @click="goToProjectAdvertising"><a href="#">Grafik</a></li>
-                                        <li @click="goToProjectFreeProjects"><a href="#">Freie Projekte</a></li>
+                                        <li><a href="web.html">Web</a></li>
+                                        <li><a href="grafik.html">Grafik</a></li>
+                                        <li><a href="freieProjekte.html">Freie Projekte</a></li>
                                     </ul>
                                 </li>
-                                <li><a @click="goToContact" href="#">Kontakt</a></li>
+                                <li><a href="kontakt.html">Kontakt</a></li>
                             </ul>
                         </div>
                     </li>
@@ -228,7 +228,7 @@
                 <div id="about-isabella" class="base-site-grid-14 ">
                     <div class="base-site-grid-layout">
                         <div class="base-site-grid-12">
-                            <h2 id="about-isabella-h2">Über Isabella</h2>
+                            <h2 id="about-isabella-h2" id="kurzvorstellungID">Über Isabella</h2>
                             <p id="about-isabella-text">
                                 Isabella Aigner ist eine Kommunikationsdesignerin, die sich anfänglich auf Grafik und Design konzentriert hat und einige Jahre auch als Mediendesignerin tätig war. Durch ihre Kreativität wurde jedoch schnell klar, dass ihre Leidenschaft sich auch Richtung Webentwicklung ansiedelt, weshalb sie diese im zweiten Bildungsweg auf der Fachhochschule Oberösterreich (Medientechnik und -design) auch zur Zeit weiter vertieft. Isabellas Engagement motiviert sie immer weiter neue Techniken, Technologien und Fähigkeiten zu erlernen, die sie in ihre Arbeit mit einfließen lässt.
                             </p>
@@ -3689,7 +3689,7 @@
                         <p> Tel: <a href="tel:069911314663">0699 113 14 663</a><br>
                             Mail: <a href="mailto:S1810238002@students.fh-hagenberg.at?cc=S1810238002@students.fh-hagenberg.at&bcc=isabella.aigner@yahoo.de&subject=Nachricht%20durch%20Kontaktformulare&amp;body=Sehr%20geehrte%20Frau%20Aigner&sbquo;" target="_top">isabella.aigner@yahoo.de</a></p>
                     </div>
-                    <h3><a @click="goToImprintPage" href="#">Impressum</a></h3>
+                    <h3><a href="impressum.html">Impressum</a></h3>
                     <a id="footer--nach-oben" href="#top"><img src="images/index/flaticon_right-arrow.svg" height="15" alt="Pfeil Verlinkung auf Seitenanfang" /></a>
                 </section>
             </div>
