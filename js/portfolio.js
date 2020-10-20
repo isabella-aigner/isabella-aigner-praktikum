@@ -34,7 +34,7 @@ new Vue({
             {
                 headline: 'Fachhochschule Hagenberg, Medientechnik und Design (BAKK)',
                 time: 'Sept. 2018 - fortlaufend',
-                description: 'Der MTD-Studiengang bietet die perfekte Verbindung zwischen technik und kreativem Design. Der Hauptaugenmerk liegt hier für Isabella im Webentwicklungsbereich (Frontend, Backend-Frameworks, etc.), um diese auch mit ihren bisherigen Kompetenzen kombinieren zu können.',
+                description: 'Der MTD-Studiengang bietet die perfekte Verbindung zwischen technik und kreativem Design. Das Hauptaugenmerk liegt hier für Isabella im Webentwicklungsbereich (Frontend, Backend-Frameworks, etc.), um diese auch mit ihren bisherigen Kompetenzen kombinieren zu können.',
                 icon: 'images/werdegang/education_icon.svg',
                 alt: 'Ausbildungs-Icon',
                 type: 'education',
@@ -43,7 +43,7 @@ new Vue({
             {
                 headline: 'Rotax Maxdome, Linz',
                 time: 'Juli 2018 - Sept 2018',
-                description: 'Die Arbeit bezug sich vor allem im Empfang und als Kassiererin, sowie bei der Kundenbetreuung von Groß- und Kleingruppen und der Mithilfe bei größeren Events.',
+                description: 'Die Arbeit umfasste vor allem Tätigkeiten am Empfang und als Kassiererin, sowie bei der Kundenbetreuung von Groß- und Kleingruppen und der Mithilfe bei größeren Events.',
                 icon: 'images/werdegang/work_icon.svg',
                 alt: 'Arbeits-Icon',
                 type: 'work',
