@@ -40,8 +40,7 @@ nav.innerHTML = '<!--------------------- desktop navi---------------------------
           '<div id="desktop-navi--top-projects-nav">' + '\n' +
               '<ul>' + '\n' +
                 '<li id="menu-web"><a href="web.html">Web</a></li>' + '\n' +
-                '<li id="menu-print"><a href="print.html">Print</a></li>' + '\n' +
-                '<li id="menu-corporateDesign"><a href="corporateDesign.html">Corporate Design</a></li>' + '\n' +
+                '<li id="menu-print"><a href="grafik.html">Grafik</a></li>' + '\n' +
                 '<li id="menu-freeProjects"><a href="freieProjekte.html">Freie Projekte</a></li>' + '\n' +
               '</ul>' + '\n' +
           '</div>' + '\n' +
@@ -91,8 +90,7 @@ nav.innerHTML = '<!--------------------- desktop navi---------------------------
                   '<li><a id="showProjectInside" href="#">Projekte</a>' + '\n' +
                       '<ul id="projectInside" style="display: none;">' + '\n' +
                           '<li id="menu-web"><a href="web.html">Web</a></li>' + '\n' +
-                          '<li id="menu-print"><a href="/print.html">Print</a></li>' + '\n' +
-                          '<li id="menu-cd"><a href="corporateDesign.html">Corporate Design</a></li>' + '\n' +
+                          '<li id="menu-print"><a href="/grafik.html">Grafik</a></li>' + '\n' +
                           '<li id="menu-freeProjects"><a href="freieProjekte.html">Freie Projekte</a></li>' + '\n' +
                       '</ul>' + '\n' +
                   '</li>' + '\n' +
