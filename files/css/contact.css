@@ -1,0 +1,15 @@
+.kontakt-page {
+    padding-top: 0 !important;
+}
+.kontakt-page-p {
+    margin: 0;
+}
+.kontakt-page-p:last-of-type {
+    margin-bottom: 2%;
+}
+#kontakt #kontakt-page-fieldset {
+    padding-bottom: 0;
+}
+
+a { color: #060c13; }
+a:hover, a:active, a:focus { color: #BCD3DC; }

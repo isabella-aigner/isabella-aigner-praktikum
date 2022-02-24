@@ -34,7 +34,7 @@ new Vue({
             {
                 headline: 'Fachhochschule Hagenberg, Medientechnik und Design (BAKK)',
                 time: 'Sept. 2018 - fortlaufend',
-                description: 'Der MTD-Studiengang bietet die perfekte Verbindung zwischen technik und kreativem Design. Das Hauptaugenmerk liegt hier für Isabella im Webentwicklungsbereich (Frontend, Backend-Frameworks, etc.), um diese auch mit ihren bisherigen Kompetenzen kombinieren zu können.',
+                description: 'Die perfekte Verbindung von professioneller Technik, smarten Inhalten und kreativem Design ist der entscheidende Erfolgsfaktor in der Welt der digitalen Medien. Die rasche Weiterentwicklung des technologischen Umfelds erfordert praktisches Know-how in unterschiedlichsten Bereichen, Flexibilität und Offenheit für alles Neue.',
                 icon: 'images/werdegang/education_icon.svg',
                 alt: 'Ausbildungs-Icon',
                 type: 'education',
@@ -43,7 +43,7 @@ new Vue({
             {
                 headline: 'Rotax Maxdome, Linz',
                 time: 'Juli 2018 - Sept 2018',
-                description: 'Die Arbeit umfasste vor allem Tätigkeiten am Empfang und als Kassiererin, sowie bei der Kundenbetreuung von Groß- und Kleingruppen und der Mithilfe bei größeren Events.',
+                description: 'Arbeit vor allem beim Empfang und für Kundenbetreuung von Groß- und Kleingruppen, sowie Mithilfe bei größeren Events.',
                 icon: 'images/werdegang/work_icon.svg',
                 alt: 'Arbeits-Icon',
                 type: 'work',
@@ -51,7 +51,7 @@ new Vue({
                 workCounter: 1
             },
             {
-                headline: 'Bäckerei Winkler, Gallneukirchen',
+                headline: 'Bäckerei Winkler, Gallneukierchen',
                 time: 'Juli 2018 - Sept. 2018',
                 description: 'Arbeit als Verkaufsmitarbeiterin, sowie im Café als Servicemitarbeiterin.',
                 icon: 'images/werdegang/work_icon.svg',
@@ -93,7 +93,7 @@ new Vue({
             {
                 headline: 'Weiterbildung am bit Schulungscenter, Linz',
                 time: 'Sept. 2017 - Dez. 2017',
-                description: 'Web Editing (HTML5, CSS3, Webseitenoptimierung für verschiedene Endgeräte)',
+                description: 'Web Editing (HTML5, CSS3, Webseitenoptimierung für verschiedene Endgeräte',
                 icon: 'images/werdegang/education_icon.svg',
                 alt: 'Ausbildungs-Icon',
                 type: 'education',
@@ -121,7 +121,7 @@ new Vue({
                 workCounter: 6,
             },
             {
-                headline: 'Roco Modelleisenbahn Holding GmbH, Bergheim Salzburg',
+                headline: 'Roco Modelleisenbahn Holding GmbH, Bergheim',
                 time: 'Mai 2015 - Juli 2016',
                 description: 'Interne Marketingabteilung, Grafik & Design',
                 icon: 'images/werdegang/work_icon.svg',
@@ -141,6 +141,16 @@ new Vue({
                 workCounter: 8,
             },
             {
+                headline: 'Wiberg GmbH, Salzburg',
+                time: 'Feb. 2015 - April. 2015',
+                description: 'Praktikum, Interne Grafik, Grafik & Design',
+                icon: 'images/werdegang/internship_icon.svg',
+                alt: 'Praktikums-Icon',
+                type: 'internship',
+                educationCounter: 7,
+                workCounter: 9,
+            },
+            {
                 headline: 'Maya Inspiranto Werbeagentur, Salzburg',
                 time: 'Juli. 2014 - Sept. 2014',
                 description: 'Urlaubsvertretung, Grafik & Design',
@@ -148,16 +158,16 @@ new Vue({
                 alt: 'Arbeits-Icon',
                 type: 'work',
                 educationCounter: null,
-                workCounter: 9,
+                workCounter: 10,
             },
             {
                 headline: 'Werbe-Design-Akademie (WDA), Wifi Salzburg',
-                time: 'Okt. 2012 - Juni 2014',
+                time: 'Okt. 2010 - Juni 2014',
                 description: 'Abschluss: Diplom im Bereich Kommunikationsdesign',
                 icon: 'images/werdegang/education_icon.svg',
                 alt: 'Arbeits-Icon',
                 type: 'education',
-                educationCounter: 7,
+                educationCounter: 8,
                 workCounter: null,
             },
             {
@@ -167,28 +177,28 @@ new Vue({
                 icon: 'images/werdegang/internship_icon.svg',
                 type: 'internship',
                 alt: 'Praktikums-Icon',
-                educationCounter: 8,
-                workCounter: 10,
+                educationCounter: 9,
+                workCounter: 11,
             },
             {
                 headline: 'Bäckerei und Konditorei Flöckner, Salzburg Gnigl',
                 time: 'Aug. 2012 - März 2013',
-                description: 'Teilzeitmitarbeiterin im Verkauf und als Cafémitarbeiterin',
-                icon: 'images/werdegang/work_icon.svg',
-                alt: 'Arbeits-Icon',
-                type: 'work',
-                educationCounter: null,
-                workCounter: 11,
-            },
-            {
-                headline: 'Café-Restaurant & Pizzeria Papageno, St. Gilgen',
-                time: 'Mai 2012 - Juli 2012',
-                description: 'Ferialmitarbeiterin im Eisverkauf und Service',
+                description: 'Teilzeitmitarbeiterin im Verkauf und Café',
                 icon: 'images/werdegang/work_icon.svg',
                 alt: 'Arbeits-Icon',
                 type: 'work',
                 educationCounter: null,
                 workCounter: 12,
+            },
+            {
+                headline: 'Café-Restaurant & Pizzeria Papageno, St. Gilgen',
+                time: 'Mai 2012 - Juli 2012',
+                description: 'Ferialmitarbeitern, Eisverkauf und Service',
+                icon: 'images/werdegang/work_icon.svg',
+                alt: 'Arbeits-Icon',
+                type: 'work',
+                educationCounter: null,
+                workCounter: 13,
             },
             {
                 headline: 'Schnupperpraktika Grafik & Design',
@@ -197,8 +207,8 @@ new Vue({
                 icon: 'images/werdegang/internship_icon.svg',
                 alt: 'Praktikums-Icon',
                 type: 'internship',
-                educationCounter: 9,
-                workCounter: 13,
+                educationCounter: 10,
+                workCounter: 14,
             },
             {
                 headline: 'FiT - Frauen in Handwerk und Technik, BFI Salzburg',
@@ -207,7 +217,7 @@ new Vue({
                 icon: 'images/werdegang/education_icon.svg',
                 alt: 'Ausbildungs-Icon',
                 type: 'education',
-                educationCounter: 10,
+                educationCounter: 11,
                 workCounter: null,
             },
             {
@@ -217,17 +227,17 @@ new Vue({
                 icon: 'images/werdegang/education_icon.svg',
                 alt: 'Ausbildungs-Icon',
                 type: 'education',
-                educationCounter: 11,
+                educationCounter: 12,
                 workCounter: null,
             },
             {
                 headline: 'Orff-Institut, Salzburg',
                 time: 'Nov. 2007 - Juni 2008',
-                description: 'Außerordentliche Hörerin elementare Musik- und Tanzpädagogin (Überbrückung bis zum MMA-Beginn)',
+                description: 'Außerordentliche Hörerin elementare Musik- und Tanzpädagogin (Überbrückung)',
                 icon: 'images/werdegang/education_icon.svg',
                 alt: 'Ausbildungs-Icon',
                 type: 'education',
-                educationCounter: 12,
+                educationCounter: 13,
                 workCounter: null,
             },
             {
@@ -237,7 +247,7 @@ new Vue({
                 icon: 'images/werdegang/education_icon.svg',
                 alt: 'Ausbildungs-Icon',
                 type: 'education',
-                educationCounter: 13,
+                educationCounter: 14,
                 workCounter: null,
             },
             {
@@ -247,7 +257,7 @@ new Vue({
                 icon: 'images/werdegang/education_icon.svg',
                 alt: 'Ausbildungs-Icon',
                 type: 'education',
-                educationCounter: 14,
+                educationCounter: 15,
                 workCounter: null,
             },
         ],
@@ -289,7 +299,7 @@ new Vue({
                 workCounter: null,
             },
             {
-                headline: 'Musikum Salzburg/Hof: Klavierunterricht, 1. und 2. Übertrittsprüfung abgeschlossen',
+                headline: 'Musikum Salzburg/Hof: Klavierunterricht, 1. und 2. Übertrittsprüfung',
                 time: '1995 - 2008',
                 icon: 'images/werdegang/hobbyeducation_icon.svg',
                 alt: 'Hobby-Ausbildung-Icon',
@@ -1104,7 +1114,7 @@ new Vue({
                 this.buttonActiveAll = false;
 
                 this.headerPicture = 'images/headerbilder/header_career_work.jpg';
-                this.headerPictureQuad = 'images/headerbilder/header_career_workQuad.jpg';
+                this.headerPictureQuad = 'images/headerbilder/haeder_career_workQuad.jpg';
                 this.headerPictureTitle = 'Headerpicture - Arbeit Headerbild';
             }
         },

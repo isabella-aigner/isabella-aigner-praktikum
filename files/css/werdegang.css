@@ -1,0 +1,174 @@
+.werdegang-info {
+    display: grid;
+    display: grid;
+    grid-template-columns: [grid14-start] 1fr [grid14-line2] 1fr [grid14-line3] 1fr [grid14-line4] 1fr [grid14-line5] 1fr [grid14-line6] 1fr [grid14-line7] 1fr [grid14-line8] 1fr [grid14-line9] 1fr [grid14-line10] 1fr [grid14-line11] 1fr [grid14-line12] 1fr [grid14-line14] 1fr [grid14-line15] 1fr [grid14-end];
+    grid-column-gap: 40px;
+}
+.werdegang-icon, .werdegang-icon-hobby {
+    grid-column-start: grid14-line2;
+    grid-column-end: grid14-line4;
+}
+.werdegang-text, .werdegang-text-hobby {
+    grid-column-start: grid14-line4;
+    grid-column-end: grid14-line15;
+}
+.werdegang-bg {
+    z-index: -1;
+}
+#header-top--fb-logo {
+    z-index: 999999;
+}
+
+/*slider*/
+.header-top--slider-subpage {
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+/*introduction*/
+#werdegang-introduction {
+    text-align: center;
+}
+
+/*auswahlbuttons anzeige*/
+#werdegang-info-button {
+    text-align: right;
+}
+.buttonActiveWerdegang {
+    background-color: #0d1b2b !important;
+    color: white !important;
+}
+
+/*werdegang design*/
+.werdegang-icon, .werdegang-icon-hobby {
+    justify-content: center;
+    align-self: center;
+}
+.werdegang-icon img {
+    width: 120px;
+    height: 120px;
+}
+.werdegang-icon-hobby {
+    margin-left: 15%;
+}
+.werdegang-icon-hobby img {
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+}
+.werdegang-h3 {
+    font-family: 'Mukta', 'Open Sans', Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+    color: #707070;
+    margin: 3% 0% 0% 0%;
+}
+.werdegang-time {
+    font-family: 'Mukta', 'Open Sans', Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #26A7BB;
+    margin: 0% 0% 2% 0%;
+}
+.werdegang-beschreibung {
+    font-family: 'Mukta', 'Open Sans', Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 0% 0% 3% 0%;
+    color: #707070;
+}
+.werdegang-h2 {
+    margin-top: 0;
+}
+.werdegang-h2-between {
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+.werdegang-h2-info {
+    margin-bottom: 5%;
+}
+.werdegang-h2-between-info {
+    margin-top: 0.5%;
+}
+.werdegang-button-grid {
+    margin-bottom: 2px;
+}
+.werdegang-button {
+    border: 2px solid #DCE9EE;
+    borer-bottom: none;
+    background-color: white;
+    color: #0d1b2b;
+    margin-bottom: -2px;
+    padding: 1% 2%;
+    font-size: 1em;
+}
+.werdegang-button:hover, .werdegang-button:active {
+  background-color: #0D1B2B;
+  color: white;
+}
+.werdegang-button.active {
+  background-color: #0D1B2B;
+  color: white;
+}
+
+/*Besondere Kenntnisse*/
+.skill-left {
+    grid-column-start: grid12-start;
+    grid-column-end: grid12-line3;
+}
+.skill-right {
+    grid-column-start: grid12-line3;
+    grid-column-end: grid12-end;
+}
+.skill-section {
+    margin-bottom: 2%;
+}
+.skill-section h4 {
+    margin-bottom: 1%;
+    font-size: 0.9em;
+}
+.skill-section p {
+    margin: 0;
+}
+.skill-section:last-of-type {
+    margin-bottom: 0;
+}
+.skill-icons {
+    width: 20px;
+    height: 20px;
+}
+.skill-icons-adobe {
+    width: 3%;
+    height: 3%;
+    margin-left: 1%;
+}
+.skill-icons-hobby {
+    height: 4%;
+    width: 4%;
+    margin-left: 1%;
+}
+.skill-icons-adobe:first-of-type {
+    margin-left: 0;
+}
+.skill-icons-hobby:first-of-type {
+    margin-left: 0;
+}
+.skill-icons-text {
+  padding-left: 0.4rem;
+  font-size: 110%;
+  font-weight: bold;
+  font-family: arial, sans-serif;
+}
+.skill-icons-text:first-of-type {
+  padding-left: 0.3rem;
+}
+.skill-icons-twig {
+  color: #bacf29;
+}
+p.skill-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}

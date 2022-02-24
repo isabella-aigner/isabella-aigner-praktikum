@@ -1,0 +1,397 @@
+/*---------------------------------------*/
+/*grid seiteneinstieg*/
+#zitat--grid {
+    display: grid;
+    grid-template-columns: [grid6-start] 1fr [grid6-line2] 1fr [grid6-line3] 1fr [grid6-line4] 1fr [grid6-line5] 1fr [grid6-line6] 1fr [grid6-end];
+    grid-column-gap: 40px;
+}
+#zitat {
+    height: auto;
+    grid-area: 1 / grid14-line8 / seitenstart-rend / 14;
+}
+#zitat--text {
+    grid-column-start: grid6-line2;
+    grid-column-end: grid6-line6;
+}
+#seitenanstieg--textabschnitt--grid {
+    display: grid;
+    grid-template-columns: [grid6-start] 1fr [grid6-line2] 1fr [grid6-line3] 1fr [grid6-line4] 1fr [grid6-line5] 1fr [grid6-line6] 1fr [grid6-end];
+    grid-column-gap: 40px;
+}
+#seiteneinstieg {
+    grid-auto-rows: auto 1fr auto 1fr auto;
+    grid-row-gap: 50px;
+}
+.seiteneinstieg--textabschnitt {
+    grid-area: 1 / grid14-line2 / seitenstart-rend / 8;
+    height: auto;
+}
+
+/*Textabschnitte*/
+#textabschnitt--vorstellung {
+    grid-column-start: grid6-line2;
+    grid-column-end: grid6-line6;
+}
+
+
+@media (max-width: 1500px) {
+    #seitenanstieg--textabschnitt--grid {
+        grid-template-columns: [grid12-start] 1fr [grid12-line2] 1fr [grid12-line3] 1fr [grid12-line4] 1fr [grid12-line5] 1fr [grid12-line6] 1fr [grid12-line7] 1fr [grid12-line8] 1fr [grid12-line9] 1fr [grid12-line10] 1fr [grid12-line11] 1fr [grid12-line12] 1fr [grid14-end];
+    }
+    #zitat {
+        grid-area: 1 / grid14-line2 / seitenstart-rline2 / 14;
+    }
+    .seiteneinstieg--textabschnitt {
+        grid-area: 2 / grid14-line2 / seitenstart-rend / 14;
+    }
+    #textabschnitt--vorstellung {
+        grid-column-start: grid12-line2;
+        grid-column-end: grid12-line12;
+    }
+}
+
+@media (max-width: 900px) {
+    #zitat--grid {
+        grid-template-columns: [grid12-start] 1fr [grid12-line2] 1fr [grid12-line3] 1fr [grid12-line4] 1fr [grid12-line5] 1fr [grid12-line6] 1fr [grid12-line7] 1fr [grid12-line8] 1fr [grid12-line9] 1fr [grid12-line10] 1fr [grid12-line11] 1fr [grid12-line12] 1fr [grid14-end];
+    }
+    #zitat--text {
+        grid-column-start: grid12-line2;
+        grid-column-end: grid12-line12;
+    }
+}
+
+
+/*------------------------------------------layout----------------------*/
+
+.header-top--slider { margin-bottom: 1%; }
+.header-top--slider-none { margin-bottom: 0%; }
+
+/*Seiteneinstieg*/
+#seiteneinstieg {
+    position: relative;
+}
+#zitat {
+    align-self: start;
+    position: sticky;
+    top: 0;
+
+    background: linear-gradient(rgba(51, 60, 66, 0.6), rgba(51, 60, 66, 0.6)), url(../images/index/zitat.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    font-family: 'Montez', cursive;
+    font-size: 1.6em;
+    color: #fff;
+    text-align: center;
+}
+#zitat h2 {
+    font-size: 1.2em;
+    font-family: 'Montez', 'Helvetica Neue', Arial, cursive;
+}
+#zitat .music_link{
+    font-family: 'Mukta', 'Open Sans', Arial, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 0.7em;
+}
+#zitat .music_link a:link {
+    text-decoration: none;
+    color: #BCD3DC;
+}
+#zitat .music_link a:hover {
+    color: #1F1F1F;
+    background-color: RGBA(220, 223, 238, 0.4);
+    text-decoration: underline;
+    transition-timing-function: ease;
+    transition: background-color ease 1.0s;
+}
+#zitat .music_link a:active {
+    color: #56f9ef;
+    text-decoration: underline;
+    background-color: RGBA(0,0,12,0.4);
+    transition: background-color ease 0.5s;
+}
+#zitat .music_link a:visited {
+    color: #ffffff;
+}
+.pad--horizontal {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.dunkel {
+    background-color: #eef4f6;
+}
+
+/*----------------------------------- kategorie layout ---------------------------*/
+/*Layout Boxen*/
+#angebote--abschnitte--boxlayout section {
+    width: 100%;
+}
+#angebote--abschnitte--boxlayout section a {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+    color: #eef4f6;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Mukta', 'Open Sans', Arial, Verdana, sans-serif;
+    font-size: 90%;
+}
+#angebote--abschnitte--boxlayout section a h3 {
+    background-color: #060c13;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0 0 5px 5px;
+    font-family: 'Mukta', 'Open Sans', Arial, Verdana, sans-serif;
+}
+#angebote--abschnitte--boxlayout section a img {
+    border-radius: 5px 5px 0 0;
+}
+
+/*Linkverhalten Boxen*/
+.boxlayout--projektgruppen a:hover {
+    box-shadow: 3px 3px 5px RGBA(51, 60, 66, 0.5);
+    transition: ease 0.3s;
+    transform: scale(1.02);
+}
+.boxlayout--projektgruppen a:active {
+    text-decoration: underline;
+}
+.boxlayout--projektgruppen img {
+    width: 100%;
+    height: auto;
+}
+
+/*---------------------aktuelles newsfeed---------------*/
+/*Aktuelles*/
+#slider-aktuelles-h2 {
+    color: white;
+    margin-left: 11vw;
+    margin-top: 5vw;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+#slider-body-new {
+    background-color: #060c13;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    height: 35vw;
+}
+.flex-new {
+    display: -webkit-flex;
+    display: flex; -webkit-flex-direction:
+        row;  flex-direction:
+        row; -webkit-justify-content:
+        flex-start; justify-content:
+        flex-start;
+}
+
+.slider-wrapper-new div {
+    position: relative;
+}
+.slider-wrapper-new {
+    margin-top: 5vw;
+    margin-left: 11vw;
+}
+.slide-image-new {
+    height: 24vw;
+}
+.slide-image-new img {
+    width: 24vw;
+    cursor: pointer;
+}
+.slide-content-new {
+    width: 25vw;
+    color: #fff;
+    padding:3vw 18vw 3vw 9vw;
+}
+.slide-date-new {
+    color: #0a8acb;
+    font-size: 1.1vw;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    padding-bottom: 1.4vw;
+}
+.slide-title-new {
+    font-size: 1.2vw;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    line-height: 1.55vw;
+    padding-bottom: 1.8vw;
+}
+.slide-text-new {
+    font-size: 0.80vw;
+    line-height: 1.2vw;
+    opacity: 0.8;
+    padding-bottom: 4vw;
+}
+.slide-more-new {
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    float: left;
+    font-size: 0.9vw;
+}
+.slide-bullet {width: 0.5vw; height: 0.5vw; background-color: #0b8bcc; border-radius: 200%; position: relative; margin-left: 1.2vw;}
+.slide-nav {margin-left: 64vw; margin-top: -5.5vw;}
+
+div.overlay-blue-new {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: 0.5s ease all;
+}
+div.overlay-blue-new:hover {
+    background-color: rgba(13, 27, 43, 0.5);
+}
+
+.arrows-new{
+    width: 3.5vw;
+    margin-top: -5.8vw;
+    margin-left: 72vw;
+    position: relative;
+}
+.arrow {display: inline-block; position: absolute; width: 1.2vw; height: 1.2vw; background: transparent; text-indent: -9999px; border-top: 0.15vw solid #fff; border-left: 0.15vw solid #fff; transition: all .1s ease-in-out; text-decoration: none; color: transparent;
+}
+.arrow:hover {border-color: #0A8ACB; border-width: 0.25vw;
+}
+.arrow:before {display: block; height: 200%; width: 200%; margin-left: -50%; margin-top: -50%; content: ""; transform: rotate(45deg);}
+.arrow.prev-new {
+    transform: rotate(-45deg);
+    left: 0;
+}
+.arrow.next-new {
+    transform: rotate(135deg);
+    right: 0;
+}
+
+/*-----------------kontaktformular---------------------*/
+/*Kontaktformular*/
+#kontakt {
+    padding-bottom: 0 !important;
+    padding-top: 6%;
+}
+
+#kontakt fieldset legend {
+    color: #060c13;
+    font-style: oblique;
+}
+#kontakt textarea, #kontakt input {
+    color: #060c13;
+    font-family: 'Open Sans', Arial, Verdana, sans-serif;
+}
+#kontakt textarea::placeholder, #kontakt input::placeholder {
+    color: #BCD3DC;
+    font-style: oblique;
+    font-family: 'Open Sans', Arial, Verdana, sans-serif;
+}
+#kontakt form button {
+    font-size: 0.9em;
+}
+#kontakt form button {
+    color: white;
+    background-color: #060c13;
+    border: 1px solid #BCD3DC;
+    padding: 5px;
+    border-radius: 3px;
+}
+#kontakt form button:first-of-type {
+    margin-left: 0.5%;
+}
+#kontakt form button:last-of-type {
+    margin-left: 10px;
+}
+#kontakt form button:hover {
+    background-color: #BCD3DC;
+    color: #060c13;
+    border: 1px solid #060c13;
+}
+#kontakt form button:active {
+    background-color: #060c13;
+    color: #DCE9EE;
+}
+#kontakt fieldset {
+    border: none;
+    padding: 1% 0% 2% 0%;
+}
+#kontakt fieldset p:first-of-type {
+    margin-bottom: 1%;
+}
+#kontakt fieldset p {
+    margin: 0;
+    padding: 0;
+}
+#kontakt fieldset .p_rad {
+    width: 20px;
+}
+
+#kontakt label {
+    padding: 6px;
+}
+#kontakt textarea, #kontakt input {
+    width: 95%;
+    background-color: RGBA(255, 255, 255, 0.5);
+    border-radius: 3px;
+    padding: 5px;
+    margin: 0 0 10px 5px;
+    border: 1px solid #BCD3DC;
+}
+#kontakt textarea {
+    min-height: 100px;
+}
+#kontakt textarea:active {
+    border: 1px solid #060c13;
+}
+
+#kontakt #label-vorname, #kontakt #label-mail { width: 8%; display: inline-block; }
+#kontakt #label-nachname, #kontakt #label-telefon { width: 10%; display: inline-block; }
+#kontakt #input-vorname, #kontakt #input-mail { width: 35%; margin-right: 4%; display: inline-block; }
+#kontakt #input-nachname, #kontakt #input-telefon { width: 35%; display: inline-block; }
+#kontakt #legend-nachricht {
+    padding-left: 10px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+/*-------------vorstellugn------------*/
+#about-isabella-img {
+    grid-column-start: grid12-start;
+    grid-column-end: grid12-line3;
+}
+#about-isabella-hl {
+    grid-column-start: grid12-line3;
+    grid-column-end: grid12-lineend;
+}
+#about-isabella-text {
+    grid-column-start: grid12-start;
+    grid-column-end: grid12-end;
+}
+#about-isabella-h2 {
+    grid-column-start: grid12-start;
+    grid-column-end: grid12-end;
+    margin-bottom: 0;
+}
+#about-isabella-img {
+    width: 100%;
+    border-radius: 10px;
+}
+#about-isabella-hl {
+    align-self: flex-end;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.4em;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.angebote-index {
+    background-color: #DCE9EE;
+    color: #0d1b2b;
+}
+
+#about-isabella {
+    margin-bottom: 6%;
+}
